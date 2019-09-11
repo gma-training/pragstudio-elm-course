@@ -3,6 +3,8 @@ FROM node:7.2.0
 LABEL maintainer="Graham Ashton <graham@effectif.com>" version="1.0"
 
 RUN npm install -g \
+    elm-format@0.8.2 \
+    elm-live@2.6.1 \
     elm-test@0.18.0 \
     elm@0.18.0
 
